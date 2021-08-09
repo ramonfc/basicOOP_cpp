@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de origen\CPPFiles">
+      <UniqueIdentifier>{eea9a8f1-d683-4f41-9a94-b29257237276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\HeaderFiles">
+      <UniqueIdentifier>{87962b43-22e1-46eb-b71c-e6b5ba43a3f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="CPPFiles\Circle.cpp">
+      <Filter>Archivos de origen\CPPFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="CPPFiles\Global.cpp">
+      <Filter>Archivos de origen\CPPFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="CPPFiles\Polygon.cpp">
+      <Filter>Archivos de origen\CPPFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="CPPFiles\Triangle.cpp">
+      <Filter>Archivos de origen\CPPFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="CPPFiles\TriangleEquilateral.cpp">
+      <Filter>Archivos de origen\CPPFiles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HeaderFiles\Circle.hpp">
+      <Filter>Archivos de origen\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\Global.hpp">
+      <Filter>Archivos de origen\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\Polygon.hpp">
+      <Filter>Archivos de origen\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\Triangle.hpp">
+      <Filter>Archivos de origen\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\TriangleEquilateral.hpp">
+      <Filter>Archivos de origen\HeaderFiles</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
