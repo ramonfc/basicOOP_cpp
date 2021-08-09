@@ -1,4 +1,5 @@
 # basicOOP_cpp
+_Implemented in Visual Studio 2019_<br>
 Practicing basic OOP using C++ <br>
 Polygon is an abstract class (in this case an interface as in java).<br>
 Global contains the global variables to use in the other classes.<br>
